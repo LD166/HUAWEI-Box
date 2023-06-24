@@ -1,0 +1,35 @@
+/**index.wxss**/
+
+/*body*/
+.body-wrapper{
+  margin-top: 40rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.date-logo image{
+  /*border: solid red 1rpx;*/
+  height: 107rpx;
+  width: 107rpx;
+}
+.date{
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  width: 300rpx;
+  height: 160rpx;
+  border-radius: 40rpx;
+  box-shadow: #77778a 0 0 10rpx;
+  padding: 0 15rpx;
+}
+.date-logo{
+  display: flex;
+  align-items: center;
+}
+.date-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.date-value{
+  font-size: 50rpx;
+}

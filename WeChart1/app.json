@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "MQTT",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#d43c33",
+    "borderStyle": "black",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/image/1.png"
+      
+      }, 
+      { 
+      "pagePath": "pages/logs/logs",
+      "text": "日志",
+      "iconPath": "/image/2.png"
+      }
+    ]
+    },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

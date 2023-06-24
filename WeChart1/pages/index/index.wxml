@@ -1,0 +1,78 @@
+<view class="container">
+  <view class="body">
+  <view class="body-wrapper">
+  <view class="date">
+  <view class="date-logo">
+  <image src="/image/temp.png"></image>
+  </view>
+  <view class="date-text">
+  <view class="date-title">温度</view>
+  <view class="date-value">{{temp}}℃</view>
+  </view>
+  </view>
+
+  <view class="date">
+  <view class="date-logo">
+  <image src="/image/humi.png"></image>
+  </view>
+  <view class="date-text">
+  <view class="date-title">湿度</view>
+  <view class="date-value">{{humi}}%</view>
+  </view>
+  </view>
+
+  </view>
+
+  <view class="body-wrapper">
+  <view class="date">
+  <view class="date-logo">
+  <image src="/image/desklight.png"></image>
+  </view>
+  <view class="date-text">
+  <view class="date-title">台灯</view>
+  <switch color="#3def9"></switch>
+  </view>
+  </view>
+
+  <view class="date">
+  <view class="date-logo">
+  <image src="/image/light.png"></image>
+  </view>
+  <view class="date-text">
+  <view class="date-title">室内灯</view>
+  <view class="date-value">
+    <switch color="#3def9" checked="inled" bindchange="inledchange"></switch>
+  </view>
+  </view>
+  </view>
+
+  </view>
+
+  <view class="body-wrapper">
+  <view class="date">
+  <view class="date-logo">
+  <image src="/image/light.png"></image>
+  </view>
+  <view class="date-text">
+  <view class="date-title">客厅灯</view>
+  <view class="date-value">
+    <switch color="#3def9" checked="outled" bindchange="outledchange"></switch>
+  </view>
+
+  </view>
+  </view>
+
+  <view class="date">
+  <view class="date-logo">
+  <image src="/image/fog.png"></image>
+  </view>
+  <view class="date-text">
+  <view class="date-title">PM2.5</view>
+  <view class="date-value">{{pm}}μg/m³</view> 
+  </view>
+  </view>
+
+  </view>
+
+</view>
+</view>
